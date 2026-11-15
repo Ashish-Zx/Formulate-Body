@@ -97,7 +97,7 @@ export default async function SignInPage() {
           <p className="mt-1 text-sm text-muted-foreground">Sign in to continue your training.</p>
           <div className="mt-6">
             <Suspense fallback={null}>
-              <SignIn appearance={appearance} />
+              <SignIn appearance={appearance} fallbackRedirectUrl="/app" />
             </Suspense>
           </div>
           <p className="mt-6 text-center text-xs text-muted-foreground">

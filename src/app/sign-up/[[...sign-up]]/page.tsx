@@ -38,7 +38,7 @@ export default async function SignUpPage() {
         <p className="mt-1 text-sm text-muted-foreground">Free forever. No credit card.</p>
         <div className="mt-6">
           <Suspense fallback={null}>
-            <SignUp appearance={{ variables: { colorPrimary: "#16a34a" } }} />
+            <SignUp appearance={{ variables: { colorPrimary: "#16a34a" } }} fallbackRedirectUrl="/app" />
           </Suspense>
         </div>
         <p className="mt-6 text-center text-xs text-muted-foreground">
