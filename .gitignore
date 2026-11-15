@@ -26,6 +26,7 @@ next-env.d.ts.bak
 #  Database / ORM local artifacts
 # ────────────────────────────────────────────────
 drizzle/
+.neon
 .neon/
 *.sqlite
 *.db
